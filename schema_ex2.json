@@ -1,0 +1,21 @@
+{
+	"title": "Argus",
+	"type": "object",
+	"properties": {
+		"Class": {
+			"type": "string"
+		},
+		"Mark": {
+			"type": "string"
+		},
+		"Model": {
+			"type": "string"
+		},
+		"Year": {
+			"description": "Year of the model",
+			"type": "integer",
+			"minimum": 1980
+		}		
+	},
+	"required": ["Class","Mark", "Model", "Price"]
+}
