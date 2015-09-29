@@ -1,0 +1,37 @@
+{
+	"title": "Schema Car",
+	"type": "object",
+	"properties": {
+		"Mark": {
+			"type": "string"
+		},
+		"Model": {
+			"type": "string"
+		},
+		"Price": {
+			"description": "Price",
+			"type": "integer",
+			"minimum": 0
+		}
+		"City": {
+			"type": "string"
+		},
+		"Year": {
+			"description": "Year of the model",
+			"type": "integer",
+			"minimum": 1980
+		}
+		"Km": {
+			"description": "Number of Km",
+			"type": "integer",
+			"minimum": 0
+		}
+		"Consumntion": {
+			"type": "string"
+		},
+		"Gearbox": {
+			"type": "string"
+		},
+	},
+	"required": ["Mark", "Model", "Price"]
+}
